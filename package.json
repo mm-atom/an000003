@@ -1,7 +1,7 @@
 {
 	"name": "@mmstudio/an000003",
 	"version": "1.0.0",
-	"description": "通用mm接口",
+	"description": "页面mm接口定义",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
 		"watch": "tsc -w & ava --watch ./tests/*.js",
@@ -36,8 +36,11 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"peerDependencies": {
+		"@mmstudio/an000002": "*"
+	},
 	"devDependencies": {
+		"@mmstudio/an000002": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
