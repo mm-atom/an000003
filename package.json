@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000003",
-	"version": "1.0.0",
+	"version": "1.0.202003071251",
 	"description": "页面mm接口定义",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
