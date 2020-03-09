@@ -6,7 +6,7 @@ export default interface IAiNodejsPage extends IAi {
 		readonly msg: ICommonParams;
 		readonly headers: IHeaders;
 		readonly actionid: string;
-		readonly params: { [key: string]: unknown };
+		readonly params: { [key: string]: string };
 		readonly url: string;
 	};
 	// eslint-disable-next-line semi
